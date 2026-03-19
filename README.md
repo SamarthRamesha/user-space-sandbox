@@ -38,16 +38,16 @@ Use **WSL (Windows Subsystem for Linux)** to run this project.
 
 ## Execution
 
-###Download the repository and navigate to this folder.
-###Execute these commands:
+### Download the repository and navigate to this folder.
+### Execute these commands:
 	gcc sandbox.c process_manager.c monitor.c resource_manager.c -o sandbox
 	./sandbox
 
-###Inside the sandbox:
+### Inside the sandbox:
 	to run programs: run --cpu <time limit in seconds> --mem <memory limit in MB> <./program_name>
 	to exit the sandbox: exit
 
-###programs to test have also been provided: 
+### programs to test have also been provided: 
 	success_test_program.c
 	crash_test_program.c
 	loop_test_program.c
