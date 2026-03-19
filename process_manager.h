@@ -3,6 +3,7 @@
 
 #include <sys/types.h>
 
-pid_t launch_process(char *program, char **args);
+pid_t launch_process(char *program, char **args,
+                     int cpu_limit, int mem_limit);
 
 #endif

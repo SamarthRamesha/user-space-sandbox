@@ -1,0 +1,45 @@
+
+--- Sandbox Execution Report ---
+Program : ./test_program
+PID     : 3156
+Execution Time : 0.004 sec
+Result  : Program exited normally
+Exit Code : 0
+--------------------------------
+
+--- Sandbox Execution Report ---
+Program : ./loop
+PID     : 3162
+Execution Time : 2.004 sec
+Result  : CPU time limit exceeded
+--------------------------------
+
+--- Sandbox Execution Report ---
+Program : ./test_program
+PID     : 4136
+Execution Time : 0.003 sec
+Result  : Program exited normally
+Exit Code : 0
+--------------------------------
+
+--- Sandbox Execution Report ---
+Program : ./loop
+PID     : 4185
+Execution Time : 10.004 sec
+Result  : CPU time limit exceeded
+--------------------------------
+
+--- Sandbox Execution Report ---
+Program : ./test_program
+PID     : 4260
+Execution Time : 0.005 sec
+Result  : Program exited normally
+Exit Code : 0
+--------------------------------
+
+--- Sandbox Execution Report ---
+Program : ./crash_program
+PID     : 4313
+Execution Time : 0.006 sec
+Result  : Segmentation Fault
+--------------------------------
